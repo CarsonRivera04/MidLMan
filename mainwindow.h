@@ -3,7 +3,7 @@
 
 #include <QMainWindow>
 #include <QPainter>
-#include "MidiFile.h"
+#include "midifile-library/MidiFile.h"
 #include <cstdlib>
 #include <ctime>
 #include <QString>

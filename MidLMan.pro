@@ -13,17 +13,17 @@ CONFIG += c++17
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
-    MidiFile.cpp \
-    Binasc.cpp \
-    MidiEvent.cpp \
-    MidiEventList.cpp
+    midifile-library/MidiFile.cpp \
+    midifile-library/Binasc.cpp \
+    midifile-library/MidiEvent.cpp \
+    midifile-library/MidiEventList.cpp
 
 HEADERS += \
     mainwindow.h \
-    MidiFile.h \
-    Binasc.h \
-    MidiEvent.h \
-    MidiEventList.h
+    midifile-library/MidiFile.h \
+    midifile-library/Binasc.h \
+    midifile-library/MidiEvent.h \
+    midifile-library/MidiEventList.h
 
 FORMS += \
     mainwindow.ui \
