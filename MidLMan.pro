@@ -33,14 +33,9 @@ qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
+win32:CONFIG(release, debug|release): LIBS += -L$$PWD/./release/ -lmidifile
+else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/./debug/ -lmidifile
+else:unix: LIBS += -L$$PWD/./ -lmidifile
 
-macx: LIBS += -L$$PWD/../midifile/lib/ -lmidifile
-
-INCLUDEPATH += $$PWD/../midifile/lib
-DEPENDPATH += $$PWD/../midifile/lib
-
-macx: PRE_TARGETDEPS += $$PWD/../midifile/lib/libmidifile.a
-
-
-
-
+INCLUDEPATH += $$PWD/.
+DEPENDPATH += $$PWD/.
