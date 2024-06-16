@@ -30,5 +30,9 @@ git clone https://github.com/CarsonRivera04/MidLMan.git
 [Qt Website](https://doc.qt.io/qt-6/get-and-install-qt.html)
 
 3. Open project in Qt using MidLMan.pro file.
+<img width="700" alt="Screenshot 2024-06-16 at 6 46 42 PM" src="https://github.com/CarsonRivera04/MidLMan/assets/160277432/053b3eaf-aec0-48c0-95af-8347eb8969d5">
 
+   
 4. Run project in Qt.
+<img width="700" alt="Screenshot 2024-06-16 at 6 48 50 PM" src="https://github.com/CarsonRivera04/MidLMan/assets/160277432/d11f9b67-c350-493d-9cc7-985e0673b93c">
+
