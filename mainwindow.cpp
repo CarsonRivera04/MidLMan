@@ -250,7 +250,7 @@ void MainWindow::MakeChords() {
 
   // transposes chords to user-selected key 
   for (int i = 0; i < rowSize; i++) {
-    if (i == 0) {
+    if (i == 0 && arpOn == true) {
       for (int j = 0; j < columnSize - 5; j++)
         chords[i][j]  += key;
     }
@@ -269,7 +269,7 @@ void MainWindow::MakeChords() {
 void MainWindow::Transpose() {
   // chord melodies 
   for (int i = 0; i < rowSize; i++) {
-    if (i == 0) {
+    if (i == 0 && arpOn == true) {
       for (int j = 0; j < columnSize - 5; j++)
         chords[i][j] += key;
     }
@@ -287,7 +287,7 @@ void MainWindow::Transpose() {
 void MainWindow::UnTranspose() {
   // chord melodies 
   for (int i = 0; i < rowSize; i++) {
-      if (i == 0) {
+      if (i == 0 && arpOn == true) {
           for (int j = 0; j < columnSize - 5; j++)
               chords[i][j] -= key;
       }
