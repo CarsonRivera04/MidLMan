@@ -14,7 +14,7 @@ MidLMan is a C++ desktop application that generates MIDI file melodies for a mor
 
 
 ## Demo
-Gif will go here
+![demo3](https://github.com/CarsonRivera04/MidLMan/assets/160277432/db4ad116-d6fe-4a3f-99f5-b65a250910dd)
 
 
 
