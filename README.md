@@ -3,6 +3,10 @@
 
 MidLMan is a C++ desktop application that generates MIDI file melodies for a more streamlined musical production process. This project uses the [Qt](https://www.qt.io/) framework and the [midifile](https://github.com/craigsapp/midifile) library. 
 
+## Demo
+![demo3](https://github.com/CarsonRivera04/MidLMan/assets/160277432/db4ad116-d6fe-4a3f-99f5-b65a250910dd)
+
+
 ## Features
 
 - Generates humanlike melodic MIDI files for use in any digital audio workstation. 
@@ -11,10 +15,6 @@ MidLMan is a C++ desktop application that generates MIDI file melodies for a mor
 - 3 instruments for both main melody and chords. 
 - Arpeggiated chords. 
 - Clean real-time display of melody. 
-
-
-## Demo
-![demo3](https://github.com/CarsonRivera04/MidLMan/assets/160277432/db4ad116-d6fe-4a3f-99f5-b65a250910dd)
 
 
 
