@@ -11,22 +11,22 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    main.cpp \
-    mainwindow.cpp \
+    sources/main.cpp \
+    sources/mainwindow.cpp \
     midifile-library/MidiFile.cpp \
     midifile-library/Binasc.cpp \
     midifile-library/MidiEvent.cpp \
     midifile-library/MidiEventList.cpp
 
 HEADERS += \
-    mainwindow.h \
+    sources/mainwindow.h \
     midifile-library/MidiFile.h \
     midifile-library/Binasc.h \
     midifile-library/MidiEvent.h \
     midifile-library/MidiEventList.h
 
 FORMS += \
-    mainwindow.ui \
+    sources/mainwindow.ui \
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
